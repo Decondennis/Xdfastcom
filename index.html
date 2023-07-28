@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>XDFastComm</title>
+    <!-- Bootstrap implementation -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+    <!-- GOOGLE FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet"
+        type="text/css" />
+    <!-- FONTELLO -->
+    <link href="font/fontello/css/fontello.css" rel="stylesheet" type="text/css" />
+    <link href="font/fontello/css/animation.css" rel="stylesheet" type="text/css" />
+    <!--if IE 7
+	link(rel='stylesheet', href='font/fontello/css/fontello-ie7.css')
+	-->
+    <!-- ANONYMOUS PRO FONT-->
+    <link href="http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700" rel="stylesheet" type="text/css" />
+    <!-- DRIPICONS -->
+    <link href="font/dripicons/webfont.css" rel="stylesheet" type="text/css" />
+    <!-- SIMPLE LINE ICONS -->
+    <link href="font/simple-line-icons/simple-line-icons.css" rel="stylesheet" type="text/css" />
+    <!-- THEMIFY ICONS -->
+    <link href="font/themify-icons/themify-icons.css" rel="stylesheet" type="text/css" />
+    <!-- FONTASTIC ICONS -->
+    <link href="font/fontastic/styles.css" rel="stylesheet" type="text/css" />
+    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+    <link href="css/extralayers.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="rs-plugin/css/settings.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- CarouFredSel -->
+    <link href="css/caroufredsel.css" rel="stylesheet" type="text/css" />
+    <!-- WOW.JS REVEAL ANIMATIONS -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <!-- PYE CHART -->
+    <link href="css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" />
+    <!-- Hover Effect Ideas -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css' />
+    <link href="css/HoverEffectIdeas/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="css/HoverEffectIdeas/css/set1.css" rel="stylesheet" type="text/css" />
+    <!-- Lightcase ( image popup preview ) -->
+    <link href="plugins/lightcase/css/lightcase.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body class="hidenavv">
+
+    <!-- start preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- Navigation -->
+    <div class="navigation white">
+
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/spacer.png" class="white mt5 relative z100" alt="" /></a>
+            </div>
+
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container-fluid relative">
+
+                    <button type="button" class="btn left hide-show-button none">
+                        <span class="burgerbar"></span>
+                        <span class="burgerbar"></span>
+                        <span class="burgerbar"></span>
+                    </button>
+                    <a href="#" class="closemenu"></a>
+
+                    <!-- mobile version drop menu -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle hamburger" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- menu -->
+                    <div class="mainmenu mobanim dark-menu navbar-collapse white collapse offset-0 ">
+                        <ul class="nav navbar-nav mobpad">
+                            <li class="">
+                                <a class="" href="index.html">Home</a>
+                            </li>
+                            <li class="">
+                                <a href="aboutus.html">About us </a>
+                            </li>
+                            <li class="">
+                                <a href="services.html">Services </a>
+                            </li>
+                            <li class="">
+                                <a href="commission.html">Commission </a>
+                            </li>
+                            <li class="">
+                                <a href="support.html">Support </a>
+                            </li>
+                            <li class="">
+                                <a href="faqs.html">FAQs </a>
+                            </li>
+                            <li class="">
+                                <a href="signup.html">| Sign up</a>
+                            </li>
+                            <li class="">
+                                <a href="myaccount">My Account </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- search -->
+                    <div class="shopsearch navbar-collapse white collapsee offset-0 relative z1000">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <div class="clearfix"></div>
+                            </li>
+                            <li class="search"><a href="#" class="srclick flip"><i class="ti-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- SEARCH -->
+    <div class="fwsearch">
+        <div class="size30"><span class="escape">Press [ esc ] or close</span><a href="#" class="closesearch">+</a>
+        </div>
+
+        <div class="csearch container">
+            <input type="email" class="form-control fwsearchfield" placeholder="Search keyword">
+            <button type="submit" class="btn fwsearchfieldbtn"><i class="ti-search"></i></button>
+        </div>
+    </div>
+    <!-- End of Navigation -->
+
+    <!--
+#################################
+	-  BANNER -
+#################################
+-->
+    <!-- START SLIDER fullwidth mode -->
+    <div id="parallax-off" class="tp-banner-container relative">
+        <div class="tp-banner">
+            <ul>
+                <!-- SLIDE 1  -->
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="2000"
+                    data-thumb="images/slider/girls.jpg" data-delay="12000" data-saveperformance="on"
+                    data-title="Ken Burns Slide" data-color="white">
+                    <!-- MAIN IMAGE -->
+                    <img src="images/dummy.png" alt="" data-lazyload="images/slider/headerBg.jpg"
+                        data-bgposition="left center" data-kenburns="on" data-duration="12000"
+                        data-ease="Power0.easeInOut" data-bgfit="100" data-bgfitend="100"
+                        data-bgpositionend="center center">
+
+                    <!-- LAYER 1 -->
+                    <!-- <div class="prlx-off tp-caption caption-white-bigbold-caps customin customout tp-resizeme"
+						data-x="center" data-voffset="-80" data-y="center" data-hoffset="0"
+						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500" data-start="3500" data-easing="Power3.easeInOut" data-splitin="chars"
+						data-splitout="chars" data-elementdelay="0.08" data-endelementdelay="0.08" data-endspeed="100"
+						style="z-index: 10;margin: 100px 0px 100px 0px;">XDFastComm 
+					</div> -->
+
+                    <!-- LAYER 2 -->
+                    <div class="prlx-off tp-caption caption-white randomrotate customout tp-resizeme" data-x="center"
+                        data-voffset="0" data-y="center" data-hoffset="0"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-splitin="chars"
+                        data-splitout="chars" data-elementdelay="0.08" data-endelementdelay="0.08" data-endspeed="300"
+                        style="z-index: 10; margin-bottom: 80px;color: aquamarine;">Earn from XDFastComm
+                    </div>
+
+                    <!-- LAYER 3 -->
+                    <div class="prlx-off tp-caption caption-white-bold-caps  customin customout" data-x="center"
+                        data-voffset="80" data-y="center" data-hoffset="0"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="500" data-start="3500" data-easing="Back.easeOut" data-endspeed="300"
+                        data-endeasing="Back.easeIn" style="z-index: 10;">
+                        <a href="signup.html" class="btn btnwhiteline2 fontproximabold plr50 caps center">Get
+                            Started</a>
+                    </div>
+
+                    <!-- Filter dark -->
+                    <div class="tp-caption " data-x="center" data-y="center" data-speed="600" data-start="0"
+                        data-easing="easeOut"
+                        style="z-index: 4; display:block; background:rgba(0,0,0,0.5); width:100%; height:100%;"></div>
+                </li>
+            </ul>
+            <div class="tp-bannertimer none"></div>
+        </div>
+    </div>
+    <!-- END  SLIDER -->
+
+    <!-- 3 COLS -->
+    <div id="navoffset2" class="bg0c5346  relative z100">
+        <div class="container">
+            <ul class="squares dark">
+                <li class="col-md-2 text-center">
+                    <a href="#">
+                        <i class="icon-mobile-3 size40"></i>
+                        <h5 class="uppercase">Airtime Recharge</h5>
+                        <!-- <p>Recharge airtime of any network.</p> -->
+                    </a>
+                </li>
+                <li class="col-md-2 text-center">
+                    <a href="#">
+                        <i class="icon-mobile-3 size40 "></i>
+                        <h5 class="uppercase">Data Recharge</h5>
+                        <!-- <p>Recharge data bundle of any network</p> -->
+                    </a>
+                </li>
+                <li class="col-md-2 text-center">
+                    <a href="#">
+                        <i class="icon-tv size40"></i>
+                        <h5 class="uppercase">PayTv Recharge</h5>
+                        <!-- <p>Make Cable subscribtion.</p> -->
+                    </a>
+                </li>
+                <li class="col-md-2 text-center">
+                    <a href="#">
+                        <i class="icon-comment size40"></i>
+                        <h5 class="uppercase">Bulk SMS</h5>
+                        <!-- <p>Register to send bulk SMS.</p> -->
+                    </a>
+                </li>
+                <li class="col-md-2 text-center">
+                    <a href="#">
+                        <i class="icon-lightbulb-1 size40"></i>
+                        <h5 class="uppercase">Electricity Bills</h5>
+                        <!-- <p>Pay electricity bills</p> -->
+                    </a>
+                </li>
+                <li class="col-md-2 text-center">
+                    <a href="#">
+                        <i class="icon-money size40"></i>
+                        <h5 class="uppercase">Tranfer Fund</h5>
+                        <!-- <p>Start earning</p> -->
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of 3 Cols -->
+
+
+    <!-- Intro text -->
+    <!-- <h3 class="text-center sspacing caps pb20 titlefont">XDFastComm</h3>
+	<p class="text-center size14 mb10 pb20" style="font-weight: 100;">Description of about the site will go here.
+		Description of about the site will go here.</p> -->
+    <!-- Intro text ends -->
+
+    <!-- SECTION IMAGE -->
+    <section class="bgwhite  bordertopbottom relative z100 clearfix">
+        <div class="cover2 col-xs-12 col-sm-12 col-md-6 h800">&nbsp;</div>
+        <div class="container cus-pos-abs">
+            <div class="clearfix"></div>
+            <div class="cover-right-text col-sm-12 col-sm-offset-0 col-md-6 col-md-offset-6" style="padding-top: 40px;">
+
+                <h2 class="titlefont caps size36">XDFastComm</h2>
+                <p class=" size1 mb10 pb20"> XDFastComm brings together on one platform various data subscribtions, with
+                    investment opportunities through affiliates and direct transactions where you can earn from everyday
+                    while people recharge their airtime when you signup with us.
+                </p>
+                <div class="separator100 mtb30"></div>
+                <h2 class="titlefont caps size36">Why use XDFastComm</h2>
+                <p class=" size14 mb10 pb20">
+                    With XDFastComm, you can make multiply subscriptions all in one platform.
+                </p>
+                <p class=" size16 mb10 pb20">
+                    Any purchase you make using XDFastComm earns you a bonus. This means some percentage of any amount
+                    you spend using our platform returns to you when you sign-up with us.
+                </p>
+                <p class=" size16 mb10 pb20">
+                    We fund your account each time you refer someone and each time someone signs up using your referral
+                    ID, you also make commissions form the recharge/subscriptions of the people you referred.
+                </p>
+                <p class=" size16 mb10 pb20">
+                    Become Xdfastcomm happy agent, where you offer XdfastComm bill payments, funds transfer,
+                    recharge/Subscription and flight booking services in your locality.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- END OF SECTION IMAGE -->
+
+    <!-- ADDRESS SECTION -->
+    <section ID="sectionaddress-cc" class="" style="height: 300px;"> 
+        <div class="prlx-address2"></div>
+        <div class="container pt180">
+            <div class="col-md-3"> </div>
+            <div class="col-md-9 wow bounceInDown center animated" data-wow-delay="0.3s" style="margin-top:-120px;">
+                <h1 class="titlefont size40">Flight Booking</h1>
+                <span style="font-weight: 100;font-size:20px;">
+                    <br>* Begin your Travel | Tour .
+                </span>
+                <div class="clearfix" style="margin-bottom: 18px;"></div>
+                <a href="signup.html"><button type="submit" class="btn btnwhiteline whalf fontproximalight caps">Book
+                        Flight</button></a>
+            </div> 
+        </div>
+    </section>
+    <!-- End of Address -->
+
+    <!-- SECTION -->
+    <div class="container sspacing">
+        <div class="row" style="margin: 12px;">
+            <div class="clearfix"></div>
+            <div class=" mt10"></div>
+            <div class="col-md-3"> </div>
+            <div class="col-md-9 wow bounceInDown center animated" data-wow-delay="0.3s">
+                <h4>Start a business with us</h4>
+                <h1 class="titlefont size56"><span style="color: rgb(73, 197, 156);">Invest</span> your Future</h1>
+                <span style="font-size: 18px;">It will amaze you to know the number of mobile recharges people make
+                    daily.<br />
+                    Imagine making interest from over 1000 customers when they purchase
+                    or subscribe from your
+                    account in a day!
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- End of Facts -->
+
+    <div class="separator100"></div>
+    <!-- SECTION PAYMENT OPTIONS -->
+    <div class="sspacing-title">
+        <div class="container text-center">
+            <h3 class="text-center caps titlefont pb10">Secured by</h3>
+
+            <!-- CarouFredSel 4 -->
+            <div class="list_carousel4 responsive">
+                <ul id="foo4">
+                    <li><img src="images/logos/paystack.jpg" alt="" /></li>
+                    <li><img src="images/logos/mastercard.jpg" alt="" /></li>
+                    <li><img src="images/logos/visa.jpg" alt="" /></li>
+                    <li><img src="images/logos/verve.jpg" alt="" /></li>
+                </ul>
+                <div class="clearfix"></div>
+
+                <!--
+			//This enables more scrolling options and timer
+			<div class="timer4"></div>
+			<a id="prev4" href="" class="">&#60;</a>
+			<a id="next4" href="" class="">&#62;</a>
+			<div class="pager4"></div>
+			-->
+            </div>
+            <!-- End of CarouFredSel 4 -->
+
+        </div>
+    </div>
+    <!-- End of Section -->
+
+
+    <!-- ADDRESS SECTION -->
+    <section ID="sectionaddress-c" class="">
+        <div class="prlx-address"></div>
+        <div class="container pt180">
+            <div class="col-md-3"> </div>
+            <div class="col-md-9 wow bounceInDown center animated" data-wow-delay="0.3s">
+                <h4>Here is how to begin</h4>
+                <h1 class="titlefont size40">Sign-up to be legible for earnings</h1>
+                <span style="font-weight: 100;font-size:20px;">
+                    <br>* You can earn by referring people.
+                    <br>* You earn as you make recharges from your own account.
+                    <br>* Also when the people you referred recharges.
+                    from their account.
+                </span>
+                <div class="clearfix" style="margin-bottom: 18px;"></div>
+                <a href="signup.html"><button type="submit" class="btn btnwhiteline whalf fontproximalight caps">Start
+                        Earning</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Address -->
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container ptb50 cwhite">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="uppercase bold pb20 cwhite titlefont">About us</h5>
+                    <p>
+                        XDFastComm brings together on one platform various data subscriptions, with investment
+                        opportunities through affiliates and direct transactions where you earn daily while people
+                        recharge and subscribe when you sign up with us.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="uppercase bold pb20 cwhite titlefont">Connect</h5>
+                    <ul>
+                        <li class="">
+                            <a class="" href="index.html">Home</a>
+                        </li>
+                        <li class="">
+                            <a href="aboutus.html">About us </a>
+                        </li>
+                        <li class="">
+                            <a href="services.html">Services </a>
+                        </li>
+                        <li class="">
+                            <a href="faqs.html">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="uppercase bold pb20 cwhite titlefont">Connect</h5>
+                    <ul>
+                        <li class="">
+                            <a href="commission.html">Commission </a>
+                        </li>
+                        <li class="">
+                            <a href="support.html">Support </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="uppercase bold pb20 cwhite titlefont">Connect</h5>
+                    <ul>
+                        <li class="">
+                            <a href="signup.html">Sign up</a>
+                        </li>
+                        <li class="">
+                            <a href="myaccount.html">My Account </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-3">
+						<h5 class="uppercase bold pb20 cwhite titlefont">Newsletter</h5>
+						<p>Latest News Straight to your inbox</p>
+						<input type="email" class="form-control newsletter" placeholder="Enter email">
+						<button type="submit" class="btn newsletterbtn"><i class="icon-mail"></i></button>
+					</div> -->
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="separator100dark"></div>
+
+        <div class="container ptb30 cwhite">
+            <a href="#"><img src="images/xdfc-footer.png" class="w90" alt="XDFastComm logo" /></a>
+            <div class="socialicons right">
+                <ul>
+                    <li class="blue dgrey"><a href="#"><i class="icon-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End of Footer -->
+
+    <p id="back-top"><a href="#top"><span class="ti-angle-up"></span></a></p>
+
+    <div class="newsletter-ani">
+        <div class="circle-obj"></div>
+        <div class="circle-obj2"><span class="ti-check"></span></div>
+        <div class="circle-obj3 opensans xslim">Subscribed</div>
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <!-- COMPRESSED -->
+    <script type="text/javascript" src="js/compressed.js"></script>
+
+    <!-- Parallax & Animations -->
+    <script type="text/javascript" src="js/animations.js"></script>
+
+    <!-- FUNCTIONS -->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+    <!-- Including all compiled Bootstrap plugins  -->
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
